@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <h1>Contact</h1>
+
+    <nav>
+        <a href="index.html">Accueil</a> |
+        <a href="apropos.html">À propos</a> |
+        <a href="blog.html">Blog</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <hr>
+
+    <h2>Échangeons ensemble</h2>
+
+    <p>
+        Une question, une remarque, une idée ou simplement envie
+        d'échanger ? Vous pouvez utiliser ce formulaire pour m'envoyer
+        votre message.
+    </p>
+
+    <p>
+        Les informations que vous partagez me permettent de mieux
+        comprendre votre demande et, si nécessaire, de vous répondre
+        directement par e-mail.
+    </p>
+
+    <form>
+
+        <p>
+            <label for="nom">Nom</label><br>
+            <input type="text" id="nom" name="nom">
+        </p>
+
+        <p>
+            <label for="email">Adresse e-mail</label><br>
+            <input type="email" id="email" name="email">
+        </p>
+
+        <p>
+            <label for="sujet">Sujet de votre message</label><br>
+            <input type="text" id="sujet" name="sujet">
+        </p>
+
+        <p>
+            <label for="demande">Votre demande concerne :</label><br>
+            <select id="demande" name="demande">
+                <option value="article">Un article</option>
+                <option value="question">Une question</option>
+                <option value="suggestion">Une suggestion</option>
+                <option value="autre">Autre</option>
+            </select>
+        </p>
+
+        <p>
+            <label>Quels sujets vous intéressent ?</label><br>
+
+            <input type="checkbox" name="interet" value="voyage">
+            Voyage
+
+            <input type="checkbox" name="interet" value="sport">
+            Sport
+
+            <input type="checkbox" name="interet" value="technologie">
+            Technologie
+        </p>
+
+        <p>
+            <label>Comment avez-vous découvert ce blog ?</label><br>
+
+            <input type="radio" name="origine" value="internet">
+            Internet
+
+            <input type="radio" name="origine" value="ami">
+            Un ami
+
+            <input type="radio" name="origine" value="autre">
+            Autre
+        </p>
+
+        <p>
+            <label for="date">Date souhaitée</label><br>
+            <input type="date" id="date" name="date">
+        </p>
+
+        <p>
+            <label for="heure">Heure souhaitée</label><br>
+            <input type="time" id="heure" name="heure">
+        </p>
+
+        <p>
+            <label for="age">Âge</label><br>
+            <input type="number" id="age" name="age">
+        </p>
+
+        <p>
+            <label for="message">Votre message</label><br>
+            <textarea id="message" name="message"
+                      rows="6" cols="40"></textarea>
+        </p>
+
+        <input type="submit" value="Envoyer">
+
+    </form>
+
+    <hr>
+
+    <p>
+        Vous pouvez aussi me contacter directement par
+        <a href="mailto:auteur@gmail.com">e-mail</a>.
+    </p>
+<footer>
+    <p>© 2026 Mon Blog</p>
+</footer>
+</body>
+</html>
